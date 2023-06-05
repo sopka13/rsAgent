@@ -1,11 +1,16 @@
+import server.Server.startServer
 
 /**
- * Backlog rsAgent
- *  - 1. Add this project in GIT
- *  - 2. Get design for documentations
+ *  rsAgent
+ *  - gitHub:       https://github.com/sopka13/rsAgent
+ *  - publicBoard:  https://miro.com/app/board/uXjVMBkQXXo=/#tpicker-content
+ *
+ * Backlog:
+ *  1. Read configFile
  */
 object Main {
   def main(args: Array[String]): Unit = {
     println("rsAgent start")
+    startServer()
   }
 }
